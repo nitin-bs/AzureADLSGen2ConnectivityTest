@@ -1,4 +1,4 @@
-# ADLS GEN2 Connectivity Checker
+# Utility to check connectivity to ADLS Gen2 from Databricks Workspace or Any Server.
 This is a piece of java code to check the access connectivity from a given machine to the adls gen2 storage account.
 
 What script does?:
