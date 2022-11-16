@@ -10,7 +10,8 @@ What script does?:
 
 ####Connect by using an account key
 ```
-$ java ADLSClientConnector 
+$ java -cp ./out/artifacts/AzureADLSGen2ConnectivityTest_jar/AzureADLSGen2ConnectivityTest.jar 
+    abcd.adls.ADLSClientConnector 
     --account_name <adls_gen2_storage_account_name>
     --container_name <storage_container_name> 
     --auth_type account_key 
@@ -18,7 +19,8 @@ $ java ADLSClientConnector
 ```  
 ####Connect by using Azure Active Directory (Azure AD)/Service Principal
 ```  
- $ java ADLSClientConnector 
+ $ java -cp ./out/artifacts/AzureADLSGen2ConnectivityTest_jar/AzureADLSGen2ConnectivityTest.jar 
+      abcd.adls.ADLSClientConnector 
     --account_name <adls_gen2_storage_account_name>
     --auth_type service_principal 
     --tenant_id <Azure tenant/directory ID> 
