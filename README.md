@@ -1,4 +1,4 @@
-#ADLS GEN2 Connectivity Checker
+# ADLS GEN2 Connectivity Checker
 This is a piece of java code to check the access connectivity from a given machine to the adls gen2 storage account.
 
 What script does?:
@@ -6,9 +6,9 @@ What script does?:
 2. Tests if the file upload to folder works fine.
 3. Tests if the listing of folder works fine.
 
-##Usage
+## Usage
 
-####Connect by using an account key
+#### Connect by using an account key
 ```
 $ java ADLSClientConnector 
     --account_name <adls_gen2_storage_account_name>
@@ -16,7 +16,7 @@ $ java ADLSClientConnector
     --auth_type account_key 
     --account_key <your_storage_account_key>
 ```  
-####Connect by using Azure Active Directory (Azure AD)/Service Principal
+#### Connect by using Azure Active Directory (Azure AD)/Service Principal
 ```  
  $ java ADLSClientConnector 
     --account_name <adls_gen2_storage_account_name>
@@ -26,7 +26,7 @@ $ java ADLSClientConnector
     --client_secret <Azure Client Secret>
 ``` 
  
- ####Sample Output:
+ #### Sample Output:
  ```  
  $ Creating directory under the container
  Successfully created/overwrote the iwx_test_connectivity directory under the given container!
